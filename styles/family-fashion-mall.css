@@ -10,7 +10,7 @@
 }
 
 .container {
-    width: 82%;
+    width: 85%;
     max-width: 1320px;
     margin: 0 auto;
 }
@@ -25,6 +25,7 @@
     text-align: center;
     border-radius: 16px;
     padding: 150px 0;
+    margin-bottom: 120px;
 }
 
 .banner-title {
@@ -34,9 +35,38 @@
     font-weight: 400;
 }
 
-.banner-heading {
+.banner-sub-title {
     color: #FFF;
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
+}
+
+/* Offer Related Styles */
+.offer-main {
+    text-align: center;
+}
+.offer-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+.offer-main h1 {
+    padding-bottom: 48px;
+}
+.offer-description {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.offer-sub-description {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 48px;
 }
