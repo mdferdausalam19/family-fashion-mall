@@ -46,15 +46,18 @@
 .offer-main {
     text-align: center;
 }
+
 .offer-title {
     color: #F00;
     font-family: Inter;
     font-size: 88px;
     font-weight: 700;
 }
+
 .offer-main h1 {
     padding-bottom: 48px;
 }
+
 .offer-description {
     color: #F00;
     font-family: Inter;
@@ -83,15 +86,16 @@
     border-radius: 16px;
     margin-top: 120px;
     margin-bottom: 120px;
-    padding: 65px 140px ;
+    padding: 65px 140px;
     gap: 40px;
 }
+
 .party-text {
     max-width: 650px;
 
 }
 
-.party-title{
+.party-title {
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
@@ -115,7 +119,7 @@
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    background:none;
+    background: none;
     border: none;
 }
 
@@ -127,6 +131,7 @@
 .portfolio-main {
     margin-bottom: 120px;
 }
+
 .portfolio-title {
     color: #F00;
     font-family: Inter;
@@ -134,6 +139,7 @@
     font-weight: 500;
     padding-bottom: 16px;
 }
+
 .portfolio-sub-title {
     color: #070211;
     font-family: Merriweather;
@@ -156,4 +162,67 @@
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+}
+
+/* Newsletter Related Styles */
+.newsletter-main {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 212px;
+    max-height: 615px;
+}
+.newsletter-text {
+    text-align: center;
+}
+
+.newsletter-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.newsletter-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 45px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-form form {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.newsletter-form form input {
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    border: none;
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    padding: 25px 400px 25px 30px;
+}
+
+.newsletter-form button {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    padding: 24px 56px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
 }
