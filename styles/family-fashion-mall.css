@@ -122,3 +122,38 @@
 .party-img {
     max-height: 460px;
 }
+
+/* Portfolio Related Styles */
+.portfolio-main {
+    margin-bottom: 120px;
+}
+.portfolio-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+.portfolio-sub-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-bottom: 22px;
+}
+
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 48px;
+    max-width: 900px;
+}
+
+.portfolio-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
