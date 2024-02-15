@@ -70,3 +70,55 @@
     font-weight: 700;
     padding-bottom: 48px;
 }
+
+/* Party Related Styles */
+.party-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('../images/Vector.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding: 65px 140px ;
+    gap: 40px;
+}
+.party-text {
+    max-width: 650px;
+
+}
+
+.party-title{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    padding-bottom: 25px;
+}
+
+.party-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 32px;
+}
+
+.btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background:none;
+    border: none;
+}
+
+.party-img {
+    max-height: 460px;
+}
