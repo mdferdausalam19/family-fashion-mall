@@ -170,7 +170,9 @@
     background: rgba(255, 0, 0, 0.05);
     padding: 80px 212px;
     max-height: 615px;
+    margin-bottom: 120px;
 }
+
 .newsletter-text {
     text-align: center;
 }
@@ -225,4 +227,45 @@
     font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
+}
+
+/* Footer Related Styles */
+.footer-main {
+    background: #070211;
+    padding: 120px 0;
+}
+
+.footer-main h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.footer-main hr{
+    height: 1px;
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+}
+.footer-main .footer-address,
+.footer-social-link,
+.footer-copyright {
+    margin: 40px 0;
+}
+
+.footer-address {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social-link {
+    text-align: center;
+}
+
+.footer-social-link a {
+    padding-right: 24px;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
 }
